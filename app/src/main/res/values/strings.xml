@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="There_is_no_item_data">You don\'t have any saved pokemon yet</string>
+    <string name="pokemon_title">My Pokemons</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="hp">HP</string>
+    <string name="atk">ATK</string>
+    <string name="image">Image</string>
+    <string name="save_pokemon_image">save</string>
+    <string name="def">DEF</string>
+    <string name="spd">SPD</string>
+    <string name="back_btn">backBtn</string>
+    <string name="header_background_image">headerBackgroundImage</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="pokemon_img">pokemonImg</string>
+    <string name="pokemon_saved_img">pokemonSavedImg</string>
+</resources>

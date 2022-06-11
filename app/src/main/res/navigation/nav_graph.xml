@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokemonMain">
+
+    <fragment
+        android:id="@+id/pokemonMain"
+        android:name="com.example.pokemonapp.ui.main.PokemonMainFragment"
+        android:label="Pokemon Main"
+        tools:layout="@layout/fragment_pokemon_main">
+        <action
+            android:id="@+id/action_pokemonMain_to_pokemonDetails"
+            app:destination="@id/pokemonDetails"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemonDetails"
+        android:name="com.example.pokemonapp.ui.details.PokemonDetailsFragment"
+        android:label="Pokemon Details"
+        tools:layout="@layout/fragment_pokemon_datails">
+        <argument
+            android:name="pokemon"
+            android:defaultValue="@null"
+            app:argType="com.example.pokemonapp.data.Pokemon"
+            app:nullable="true" />
+        <argument
+            android:name="pokemonId"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="isFetchFromRemote"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/myPokemons"
+        android:name="com.example.pokemonapp.ui.mypokemons.MyPokemonFragment"
+        android:label="My Pokemons">
+        <action
+            android:id="@+id/action_myPokemonsFragment_to_pokemonDetails"
+            app:destination="@id/pokemonDetails"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>

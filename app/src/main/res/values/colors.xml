@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black">#FF000000</color>
+    <color name="app_highlight_color">#424242</color>
+    <color name="app_highlight_text_color">#ff8a50</color>
+
+    <color name="app_background_color">#6d6d6d</color>
+    <color name="normal_color">#757575</color>
+    <color name="steel_color">#eeeeee</color>
+    <color name="bottom_navigation_menu_item_color_selected">#E7DCD9</color>
+    <color name="bottom_navigation_menu_item_color">#C8AEA7</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pokemonConstraint"
+    android:layout_width="115dp"
+    android:layout_height="135dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+    <ImageView
+        android:id="@+id/pokemonImg"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:elevation="1dp"
+        android:src="@drawable/ic_pokeball_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/pokemon_img" />
+
+    <TextView
+        android:id="@+id/pokemonNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:alpha="0.6"
+        android:elevation="2dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pokemonImg"
+        tools:text="Pokemon Name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

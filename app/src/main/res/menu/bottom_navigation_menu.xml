@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pokemonMain"
+        android:icon="@drawable/ic_pikachu"
+        android:title="Pokemon" />
+
+    <item
+        android:id="@+id/myPokemons"
+        android:icon="@drawable/ic_pokeball_black"
+        android:title="My Pokemons" />
+
+</menu>
